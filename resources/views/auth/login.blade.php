@@ -14,10 +14,23 @@
                                     <h3 class="font-weight-bolder text-info text-gradient">Login</h3>
                                     {{--  <p class="mb-0">Enter your email and password to sign in</p> --}}
                                 </div>
-                                <div class="card-header pb-0 text-left bg-transparent">
-                                    <h5 h3 class="font-weight-bolder text-info text-gradient"h3 class="font-weight-bolder text-info text-gradient">Email : admin@gmail.com</h5>
-                                    <h5 h3 class="font-weight-bolder text-info text-gradient">Password : secret</h5>
+
+                                <div class="d-flex justify-content-between">
+                                    <div class="card-header pb-0 text-left bg-transparent">
+                                        <h5>Admin Credentials :</h5>
+                                        <h6 class="font-weight-bolder text-info text-gradient"h3
+                                            class="font-weight-bolder text-info text-gradient">Email : admin@gmail.com</h6>
+                                        <h6 class="font-weight-bolder text-info text-gradient">Password : secret</h6>
+                                    </div>
+                                    <div class="card-header pb-0 text-left bg-transparent">
+                                        <h5>Customer Credentials :</h5>
+                                        <h6 class="font-weight-bolder text-info text-gradient"h3
+                                            class="font-weight-bolder text-info text-gradient">Email : customer@example.com</h6>
+                                        <h6 class="font-weight-bolder text-info text-gradient">Password : secret</h6>
+                                    </div>
+
                                 </div>
+
                                 <div class="card-body">
                                     <form method="POST" action="{{ route('login') }}" role="form">
                                         @csrf

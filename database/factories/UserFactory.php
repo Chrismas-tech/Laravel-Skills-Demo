@@ -29,7 +29,7 @@ class UserFactory extends Factory
             'lastname' => $this->faker->lastName(),
             'email' => $this->faker->unique()->safeEmail(),
             'email_verified_at' => now(),
-            'password' => bcrypt('secret'),
+            'password' => bcrypt('password'),
             'two_factor_secret' => null,
             'role' => 'customer',
             'two_factor_recovery_codes' => null,
