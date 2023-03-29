@@ -26,7 +26,7 @@
                                         <h5>Customer Credentials :</h5>
                                         <h6 class="font-weight-bolder text-info text-gradient"h3
                                             class="font-weight-bolder text-info text-gradient">Email : customer@example.com</h6>
-                                        <h6 class="font-weight-bolder text-info text-gradient">Password : secret</h6>
+                                        <h6 class="font-weight-bolder text-info text-gradient">Password : password</h6>
                                     </div>
 
                                 </div>
