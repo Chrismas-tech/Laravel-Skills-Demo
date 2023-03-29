@@ -43,15 +43,20 @@ class UserAdminTable extends DataTableComponent
             $zipName = UserInvoicesPdf::run($this->selectedInvoices);
             return response()->download(public_path($zipName))->deleteFileAfterSend(true);
         } else {
-            $this->alert('error', 'You must select at least one Invoice to download.');
+            $this->alert('error', 'You must select at least one Invoice to download !');
         }
     }
 
     public function DownloadAllInvoices($id)
     {
         $invoices = Invoice::where('user_id', $id)->pluck('id')->toArray();
-        $zipName = UserInvoicesPdf::run($invoices);
-        return response()->download(public_path($zipName))->deleteFileAfterSend(true);
+
+        if (count($invoices)) {
+            $zipName = UserInvoicesPdf::run($invoices);
+            return response()->download(public_path($zipName))->deleteFileAfterSend(true);
+        } else {
+            $this->alert('error', 'This user does not have any Invoices in Database !');
+        }
     }
 
     public function filters(): array

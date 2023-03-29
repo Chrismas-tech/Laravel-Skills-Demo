@@ -4,7 +4,7 @@
 
 <div class="d-flex justify-content-center">
     <button wire:click="DownloadAllInvoices({{ $value }})" type="button" class="btn badge-light-success"><i class="fa-solid fa-download"></i>
-        Download All Invoices in PDF</button>
+        All Customer Invoices in PDF</button>
 </div>
 
 <hr>
