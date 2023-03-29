@@ -1,0 +1,77 @@
+.pagination {
+    padding: 0;
+    margin: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.border-img {
+    border: 5px dashed rgb(234, 234, 234);
+    border-radius: 0.75rem !important;
+}
+
+.border-selected {
+    border: 5px dashed rgb(189, 187, 187);
+    border-radius: 0.75rem !important;
+}
+
+.switch-position {
+    bottom: 10px;
+    right: 10px;
+}
+
+.open-img-new-tab {
+    top: 10px;
+    right: 10px;
+}
+
+#perPage {
+    width: 90px !important;
+}
+
+.btn {
+    margin-bottom: 0 !important;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+.badge-light-success {
+    color: #67b108;
+    background-color: #cdf59b;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    border-radius: 0.25rem;
+}
+
+.badge-light-danger {
+    color: #bd0000;
+    background-color: #fc9797;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    border-radius: 0.25rem;
+}
+
+
+.badge-light-info {
+    color: #08a1c4;
+    background-color: #abe9f7;
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    border-radius: 0.25rem;
+}
