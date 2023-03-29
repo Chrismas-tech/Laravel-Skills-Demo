@@ -5,7 +5,7 @@
 
 ### 2. Open a terminal to your root folder www/, paste the following commands :
 
-- git clone https://github.com/Chrismas-tech/F.git
+- git clone https://github.com/Chrismas-tech/Laravel-Skills-Demo.git
 - cd Laravel-Skills-Demo
 - composer install
 - copy .env.example .env
