@@ -12,7 +12,11 @@
                             <div class="card card-plain mt-8">
                                 <div class="card-header pb-0 text-left bg-transparent">
                                     <h3 class="font-weight-bolder text-info text-gradient">Login</h3>
-                                   {{--  <p class="mb-0">Enter your email and password to sign in</p> --}}
+                                    {{--  <p class="mb-0">Enter your email and password to sign in</p> --}}
+                                </div>
+                                <div class="card-header pb-0 text-left bg-transparent">
+                                    <h5 h3 class="font-weight-bolder text-info text-gradient"h3 class="font-weight-bolder text-info text-gradient">Email : admin@gmail.com</h5>
+                                    <h5 h3 class="font-weight-bolder text-info text-gradient">Password : secret</h5>
                                 </div>
                                 <div class="card-body">
                                     <form method="POST" action="{{ route('login') }}" role="form">
@@ -44,7 +48,8 @@
                                         <label>Password</label>
                                         <div class="mb-3">
                                             <input class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"
-                                                type="password" name="password" placeholder="Password" required autocomplete="current-password">
+                                                type="password" name="password" placeholder="Password" required
+                                                autocomplete="current-password">
 
                                             @error('password')
                                                 <span class="invalid-feedback" role="alert">

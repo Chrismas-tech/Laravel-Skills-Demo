@@ -10,7 +10,7 @@
 - composer install
 - copy .env.example .env
 - php artisan key:generate
-- php artisan migrate --force
+- php artisan migrate --force --seed
 - npm install && npm run dev
 
 ### 3. Start your local server : 
