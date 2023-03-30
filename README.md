@@ -1,5 +1,5 @@
 # Laravel 9 : 
-# Preconfigured with Jetstrap (Jetstream with Bootstrap5 and Livewire)
+# Preconfigured with Jetstrap (Jetstream/Bootstrap5/Livewire)
 
 ### 1. Start your SQL Server
 
