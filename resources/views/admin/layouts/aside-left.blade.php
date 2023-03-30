@@ -51,6 +51,28 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link {{ Route::currentRouteName() === 'admin.library.index' ? 'active' : '' }}"
+                    href="{{ route('admin.library.index') }}">
+                    <div
+                        class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-folder text-warning {{ Route::currentRouteName() === 'admin.library.index' ? 'text-white' : 'text-dark' }}"
+                            width="12px" height="12px"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Library</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{ Route::currentRouteName() === 'admin.youtube-videos.index' ? 'active' : '' }}"
+                    href="{{ route('admin.youtube-videos.index') }}">
+                    <div
+                        class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
+                        <i class="ni ni-button-play {{ Route::currentRouteName() === 'admin.youtube-videos.index' ? 'text-white' : 'text-dark' }}"
+                            width="12px" height="12px"></i>
+                    </div>
+                    <span class="nav-link-text ms-1">Youtube Videos</span>
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link {{ Route::currentRouteName() === 'admin.profile' ? 'active' : '' }}"
                     href="{{ route('admin.profile') }}">
                     <div
@@ -78,28 +100,6 @@
                         </svg>
                     </div>
                     <span class="nav-link-text ms-1">Profile</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link {{ Route::currentRouteName() === 'admin.library.index' ? 'active' : '' }}"
-                    href="{{ route('admin.library.index') }}">
-                    <div
-                        class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="fa-regular fa-folder text-warning {{ Route::currentRouteName() === 'admin.library.index' ? 'text-white' : 'text-dark' }}"
-                            width="12px" height="12px"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">Library</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link {{ Route::currentRouteName() === 'admin.youtube-videos.index' ? 'active' : '' }}"
-                    href="{{ route('admin.youtube-videos.index') }}">
-                    <div
-                        class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-button-play {{ Route::currentRouteName() === 'admin.youtube-videos.index' ? 'text-white' : 'text-dark' }}"
-                            width="12px" height="12px"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">Youtube Videos</span>
                 </a>
             </li>
             {{--

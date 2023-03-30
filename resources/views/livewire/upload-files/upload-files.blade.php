@@ -63,7 +63,8 @@
                 @foreach ($files as $file)
                     <li class="list-unstyled">
                         - <i class="fa-regular fa-file-lines"></i>
-                        <span> {{ $file->getClientOriginalName() }}</span>
+                        <span> {{ $file->getClientOriginalName() }}
+                            - ({{ number_format($file->getSize() / 1024) }}Ko)</span>
                         <i class="ms-3 fa-solid fa-xmark text-danger cancel-upload-files"
                             wire:click="removeUpload('{{ $file->getFilename() }}')"></i>
                     </li>
