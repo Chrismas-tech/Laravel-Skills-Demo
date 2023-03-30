@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
     <!-- Scripts -->
-    @vite(['resources/sass/frontend/app-frontend.scss', 'resources/js/app.js'])
+    @vite(['resources/scss/frontend/app-frontend.scss', 'resources/js/app.js'])
 </head>
 
 <body class="bg-light">

@@ -11,13 +11,13 @@
                     <div>
                         @auth
                             <button>
-                                <a class="" href="{{ route('admin.dashboard') }}">Dashboard</a>
+                                <a class="btn btn-primary" href="{{ route('admin.dashboard') }}">Dashboard</a>
                             </button>
                         @else
-                            <a href="{{ route('login') }}">Log in</a>
+                            <a class="btn btn-primary" href="{{ route('login') }}">Log in</a>
 
                             @if (Route::has('register'))
-                                <a class="" href="{{ route('register') }}">Register</a>
+                                <a class="btn btn-primary" href="{{ route('register') }}">Register</a>
                             @endif
                         @endauth
                     </div>

@@ -24,7 +24,7 @@
 
     <!-- Scripts -->
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+    @vite(['resources/scss/backend/app-backend.scss', 'resources/js/app.js'])
 
     <!-- Styles -->
     @livewireStyles
