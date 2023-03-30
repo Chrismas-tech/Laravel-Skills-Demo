@@ -5,7 +5,9 @@ import path from "path";
 export default defineConfig({
     plugins: [
         laravel({
-            input: ["resources/scss/app.scss", "resources/js/app.js"],
+            input: [
+                "resources/scss/backend/app-backend.scss", "resources/js/app.js"
+            ],
             refresh: [...refreshPaths, "app/Http/Livewire/**"],
         }),
     ],

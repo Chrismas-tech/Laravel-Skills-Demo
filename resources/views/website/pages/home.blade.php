@@ -10,12 +10,14 @@
                 @if (Route::has('login'))
                     <div>
                         @auth
-                            <a href="{{ route('admin.dashboard') }}" class="text-muted">Dashboard</a>
+                            <button>
+                                <a class="" href="{{ route('admin.dashboard') }}">Dashboard</a>
+                            </button>
                         @else
-                            <a href="{{ route('login') }}" class="text-muted">Log in</a>
+                            <a href="{{ route('login') }}">Log in</a>
 
                             @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="ms-4 text-muted">Register</a>
+                                <a class="" href="{{ route('register') }}">Register</a>
                             @endif
                         @endauth
                     </div>

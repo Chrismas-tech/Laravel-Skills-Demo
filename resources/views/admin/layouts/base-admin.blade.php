@@ -23,7 +23,7 @@
     <!-- Font Awesome Icons -->
 
     <!-- Scripts -->
-    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
+    @vite(['resources/scss/backend/app-backend.scss', 'resources/js/app.js'])
 
     <!-- Styles -->
     @livewireStyles
