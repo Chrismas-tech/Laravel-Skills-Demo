@@ -14,7 +14,8 @@
 - npm install && npm run dev
 
 ### 3. Start your local server through Vite : 
-- open : http://127.0.0.1:8000
+- open another tab and paste : php artisan serve
+- start working on : http://127.0.0.1:8000
 
 #### Source Links :
 - Template used : https://soft-ui-dashboard-laravel-livewire.creative-tim.com/documentation/bootstrap/badge/soft-ui-dashboard/index.html
